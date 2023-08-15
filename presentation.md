@@ -31,7 +31,7 @@ image: technologist.svg
 
 ---
 layout: image-right
-image: /pipelines.jpg
+image: pipelines.jpg
 ---
 <!-- prettier-ignore-end -->
 
