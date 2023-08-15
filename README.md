@@ -4,7 +4,7 @@ This repo contains a presentation about pipelines written with [slidev](https://
 
 You can find a hosted copy of the presentation [here](https://theorangepuff.github.io/pipelines-presentation) 🚀
 
-## Usage 
+## Usage
 
 Install slidev globaly
 
@@ -13,6 +13,7 @@ npm i -g @slidev/cli
 ```
 
 Install dependencies
+
 ```bash
 npm ci
 ```
@@ -30,7 +31,6 @@ Deployments are handled through GitHub actions. Refer to: [deploy-presentation.y
 ## License
 
 Distributed under the MIT License. See [`LICENSE.txt`](./LICENSE.txt) for more information.
-
 
 ## Contact
 
