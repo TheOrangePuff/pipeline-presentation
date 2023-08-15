@@ -25,7 +25,7 @@ image: technologist.svg
 - Previous job was a hybrid tech role
   - Full stack developer
   - SysAdmin
-  - Coffee machine repair main ☕
+  - Coffee machine repair man ☕
 
 <!-- prettier-ignore-start -->
 
