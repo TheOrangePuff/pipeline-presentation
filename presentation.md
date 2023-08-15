@@ -10,10 +10,13 @@ layout: intro
 
 Revolutionize Your Development with Pipelines
 
+<!-- prettier-ignore-start -->
+
 ---
 layout: image-right
 image: technologist.svg
 ---
+<!-- prettier-ignore-end -->
 
 # Who am I?
 
@@ -24,10 +27,13 @@ image: technologist.svg
   - SysAdmin
   - Coffee machine repair main ☕
 
+<!-- prettier-ignore-start -->
+
 ---
 layout: image-right
 image: /pipelines.jpg
 ---
+<!-- prettier-ignore-end -->
 
 # What is a DevOps Engineer?
 
@@ -36,10 +42,13 @@ image: /pipelines.jpg
 - Continuous Integration / Continuous development (CI/CD)
 - Responsible for hosting infrastructure
 
+<!-- prettier-ignore-start -->
+
 ---
 layout: image-right
 image: git.png
 ---
+<!-- prettier-ignore-end -->
 
 # Pipeline Talk Prerequisites
 
@@ -53,9 +62,12 @@ image: git.png
     - e.g. `npm run build`
 - Basic bash scripting
 
+<!-- prettier-ignore-start -->
+
 ---
 layout: two-cols
 ---
+<!-- prettier-ignore-end -->
 
 # What are pipelines?
 
@@ -102,22 +114,29 @@ jobs:
         run: npm run deploy
 ```
 
+<!-- prettier-ignore-start -->
+
 ---
 layout: image-right
 image: bitbucket-pipeline.png
 ---
+<!-- prettier-ignore-end -->
 
 # Real world examples
 
 What do Aligent use pipelines for?
+
 - Deployments
 - Testing
 - Code standards
 - Security checks
 
+<!-- prettier-ignore-start -->
+
 ---
 layout: statement
 ---
+<!-- prettier-ignore-end -->
 
 # Demo
 
@@ -129,16 +148,19 @@ layout: statement
 - Stricter test criteria
 - Security scanning
 
+<!-- prettier-ignore-start -->
+
 ---
 layout: image-right
 image: qr-code.svg
 ---
+<!-- prettier-ignore-end -->
 
 # Additional Resources
 
 - [Demo GitHub Repo](https://github.com/TheOrangePuff/pipeline-presentation)
 - [Fireship Video on GitHub Actions](https://www.youtube.com/watch?v=yfBtjLxn_6k)
 - [Fireship Video - DevOps CI/CD Explained in 100 Seconds](https://www.youtube.com/watch?v=scEDHsr3APg)
-- [My Personal Website](https://danielvdp.com)
-- [Email Me](mailto:danielvdp56@gmail.com)
-
+- Get in contact 🤠
+  - [My Personal Website](https://danielvdp.com)
+  - [Email Me](mailto:danielvdp56@gmail.com)

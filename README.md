@@ -17,7 +17,3 @@ Run the start dev command:
 ```bash
 npm run start:dev
 ```
-
-```js
-const aaaa = "asdg";
-```
