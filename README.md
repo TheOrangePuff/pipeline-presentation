@@ -2,7 +2,7 @@
 
 This repo contains a presentation about pipelines written with [slidev](https://sli.dev).
 
-You can find a hosted copy of the presentation [here](https://theorangepuff.github.io/pipelines-presentation) 🚀
+You can find a hosted copy of the presentation [here](https://danielvdp.com/pipeline-presentation) 🚀
 
 ## Usage
 
