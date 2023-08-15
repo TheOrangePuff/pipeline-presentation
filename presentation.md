@@ -2,9 +2,6 @@
 theme: dracula
 coverAuthor: Aligent - Daniel van der Ploeg
 coverDate:
-paginationPagesDisabled: true
-paginationX: undefined
-paginationY: undefined
 image: '/background.jpg'
 layout: intro
 ---
@@ -22,7 +19,10 @@ image: technologist.svg
 
 - DevOps Engineer at Aligent
 - Degree in Information Technology (Software Development)
-- Previously worked in a hybrid tech role
+- Previous job was a hybrid tech role
+  - Full stack developer
+  - SysAdmin
+  - Coffee machine repair main ☕
 
 ---
 layout: image-right
@@ -34,6 +34,7 @@ image: /pipelines.jpg
 - Bridge the gap between developers and operations
 - Work closely with developers to automate processes
 - Continuous Integration / Continuous development (CI/CD)
+- Responsible for hosting infrastructure
 
 ---
 layout: image-right
@@ -48,8 +49,9 @@ image: git.png
 - npm
   - Node package manager
   - Install third party dependencies
-  - Run custom scripts (e.g. `npm build`)
-- basic bash scripting
+  - Run custom scripts
+    - e.g. `npm run build`
+- Basic bash scripting
 
 ---
 layout: two-cols
@@ -65,9 +67,9 @@ layout: two-cols
 ## What problems do they solve?
 
 - Automate common tasks
-- Save developer time
+  - Save developer (and operations) time
 - Keep processes uniform
-- Prevent bad code from being deployed to production
+- Prevent "bad" code from being deployed to production
 
 ::right::
 
@@ -93,11 +95,11 @@ jobs:
         run: npm install
 
       - name: Build
-        run: npm build
+        run: npm run build
 
       - name: Deploy
         id: deployment
-        run: npm deploy
+        run: npm run deploy
 ```
 
 ---
@@ -128,13 +130,15 @@ layout: statement
 - Security scanning
 
 ---
-layout: default
+layout: image-right
+image: qr-code.svg
 ---
 
-# Extra Resources
+# Additional Resources
 
-- [Demo GitHub Repo]()
+- [Demo GitHub Repo](https://github.com/TheOrangePuff/pipeline-presentation)
 - [Fireship Video on GitHub Actions](https://www.youtube.com/watch?v=yfBtjLxn_6k)
+- [Fireship Video - DevOps CI/CD Explained in 100 Seconds](https://www.youtube.com/watch?v=scEDHsr3APg)
 - [My Personal Website](https://danielvdp.com)
 - [Email Me](mailto:danielvdp56@gmail.com)
 

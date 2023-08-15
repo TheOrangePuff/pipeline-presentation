@@ -1,0 +1,34 @@
+{
+  "name": "pipeline-presentation",
+  "version": "1.0.0",
+  "description": "Presentation about pipelines written with slidev",
+  "main": "presentation.md",
+  "scripts": {
+    "lint": "eslint",
+    "lint:fix": "npm run lint -- --fix",
+    "format": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "slidev presentation.md",
+    "build": "slidev build presentation.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheOrangePuff/pipeline-presentation.git"
+  },
+  "author": "Daniel van der Ploeg (danielvdp56@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheOrangePuff/pipeline-presentation/issues"
+  },
+  "homepage": "https://github.com/TheOrangePuff/pipeline-presentation#readme",
+  "devDependencies": {
+    "@slidev/cli": "0.42.7",
+    "eslint": "^8.47.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "prettier": "^3.0.1"
+  },
+  "dependencies": {
+    "slidev-theme-dracula": "0.2.0"
+  }
+}
