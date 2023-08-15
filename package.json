@@ -10,7 +10,7 @@
     "format:fix": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "slidev presentation.md",
-    "build": "slidev build presentation.md"
+    "build": "slidev build presentation.md --base /pipeline-presentation"
   },
   "repository": {
     "type": "git",
