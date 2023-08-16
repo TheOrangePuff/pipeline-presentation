@@ -147,6 +147,7 @@ layout: statement
 - Parallel steps
 - Stricter test criteria
 - Security scanning
+- Lock node version to 18
 
 <!-- prettier-ignore-start -->
 
