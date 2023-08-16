@@ -144,18 +144,10 @@ layout: statement
 
 # Future optimistations
 
-
-
-
 - Parallel steps
-- Stricter test criteria    
+- Stricter test criteria
 - Security scanning
-- Lock node version to 18     
-
-
-
-
-
+- Lock node version to 18
 
 <!-- prettier-ignore-start -->
 
