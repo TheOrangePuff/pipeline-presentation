@@ -6,9 +6,9 @@ image: '/background.jpg'
 layout: intro
 ---
 
-# Automation Made Easy
+# Demystifying DevOps
 
-Revolutionize Your Development with Pipelines
+Automating Web Deployment with GitHub Pipelines
 
 <!-- prettier-ignore-start -->
 
@@ -50,7 +50,7 @@ image: git.png
 ---
 <!-- prettier-ignore-end -->
 
-# Pipeline Talk Prerequisites
+# Assumed Knowledge 
 
 - git
   - Pushing, merging
@@ -118,7 +118,7 @@ jobs:
 
 ---
 layout: image-right
-image: bitbucket-pipeline.png
+image: bitbucket-pipeline-01.png
 ---
 <!-- prettier-ignore-end -->
 
