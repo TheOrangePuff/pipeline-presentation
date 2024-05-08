@@ -4,11 +4,12 @@ coverAuthor: Aligent - Daniel van der Ploeg
 coverDate:
 image: '/background.jpg'
 layout: intro
+transition: slide-left
 ---
 
-# Automation Made Easy
+# Demystifying DevOps
 
-Revolutionize Your Development with Pipelines
+Automating Web Deployment with GitHub Pipelines
 
 <!-- prettier-ignore-start -->
 
@@ -45,22 +46,33 @@ image: pipelines.jpg
 <!-- prettier-ignore-start -->
 
 ---
-layout: image-right
-image: git.png
+layout: default
 ---
 <!-- prettier-ignore-end -->
 
-# Pipeline Talk Prerequisites
+# Assumed Knowledge
 
-- git
-  - Pushing, merging
-  - Pull requests
-- npm
-  - Node package manager
-  - Install third party dependencies
-  - Run custom scripts
-    - e.g. `npm run build`
-- Basic bash scripting
+**git**: pushing, merging & pull requests
+
+```bash
+# Git commands
+git pull
+git checkout
+git add .
+git commit
+git push
+```
+
+**npm**: install third party dependencies, run custom scripts
+
+```bash
+nvm use
+npm install react
+npm ci
+npm run ${custom_command}
+```
+
+**bash** scripting
 
 <!-- prettier-ignore-start -->
 
@@ -104,7 +116,7 @@ jobs:
           node-version: 'lts/*'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
 
       - name: Build
         run: npm run build
@@ -118,7 +130,7 @@ jobs:
 
 ---
 layout: image-right
-image: bitbucket-pipeline.png
+image: bitbucket-pipeline-01.png
 ---
 <!-- prettier-ignore-end -->
 
