@@ -50,7 +50,7 @@ layout: default
 ---
 <!-- prettier-ignore-end -->
 
-# Assumed Knowledge 
+# Assumed Knowledge
 
 **git**: pushing, merging & pull requests
 
