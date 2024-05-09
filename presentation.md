@@ -50,9 +50,9 @@ layout: default
 ---
 <!-- prettier-ignore-end -->
 
-# Assumed Knowledge     
+# Assumed Knowledge
 
-**git**: pushing, merging & pull requests and rebase    
+**git**: pushing, merging & pull requests and rebase
 
 ```bash
 # Git commands
@@ -64,7 +64,7 @@ git push
 git rebase
 ```
 
-**npm**: install third party dependencies, run custom scripts    
+**npm**: install third party dependencies, run custom scripts
 
 ```bash
 nvm use
