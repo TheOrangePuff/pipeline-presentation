@@ -39,8 +39,8 @@ image: pipelines.jpg
 # What is a DevOps Engineer?
 
 - Bridge the gap between developers and operations
+- Continuous Integration / Continuous deployment (CI/CD)
 - Work closely with developers to automate processes
-- Continuous Integration / Continuous development (CI/CD)
 - Responsible for hosting infrastructure
 
 <!-- prettier-ignore-start -->
@@ -156,10 +156,15 @@ layout: statement
 
 # Future optimistations
 
-- Parallel steps
-- Stricter test criteria
-- Security scanning
-- Lock node version to 18
+<v-click>
+<ul>
+  <li>Parallel steps</li>
+  <li>Stricter test criteria</li>
+  <li>Security scanning</li>
+  <li>Lock node version to 18</li>
+</ul>
+
+</v-click>
 
 <!-- prettier-ignore-start -->
 
