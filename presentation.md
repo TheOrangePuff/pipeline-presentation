@@ -52,7 +52,7 @@ layout: default
 
 # Assumed Knowledge
 
-**git**: pushing, merging & pull requests and rebase
+**git**: pushing, merging & pull requests
 
 ```bash
 # Git commands
@@ -61,7 +61,6 @@ git checkout
 git add .
 git commit
 git push
-git rebase
 ```
 
 **npm**: install third party dependencies, run custom scripts
